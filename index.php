@@ -59,7 +59,7 @@ if(isset($_GET["page"])){
   }else if($page == "C"){
     include("filtre.php");
   }else{
-    include("view.php");
+    include("test.php");
   }
  }
 ?>
